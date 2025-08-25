@@ -1,0 +1,22 @@
+# Ignore system files
+NTUSER.DAT
+Thumbs.db
+desktop.ini
+
+# Ignore VSCode settings
+.vscode/
+*.code-workspace
+
+# Ignore Python cache
+_pycache_/
+*.pyc
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore OS files
+.DS_Store
+
+# Ignore large folders you don't need
+node_modules/
