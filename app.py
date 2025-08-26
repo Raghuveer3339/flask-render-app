@@ -1,9 +1,9 @@
 from flask import Flask
-app = Flask(_name_)
+app = Flask(__name__)
 
 @app.route('/')
 def home():
     return "Hello from Flask on Render!"
 
-if _name_ == '_main_':
+if _name_ == '__main__':
     app.run()
